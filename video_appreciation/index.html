@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频欣赏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            min-width: 1444px;
+        }
+        
+        .clearfix:after,
+        .clearfix:before {
+            content: "";
+            display: table;
+        }
+        
+        .clearfix:after {
+            clear: both;
+        }
+        
+        .clearfix {
+            *zoom: 1;
+        }
+        
+        header {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            float: left;
+        }
+        
+        .logo a {
+            width: 128px;
+            height: 128px;
+            display: block;
+            background-image: url("../img/logo.png");
+        }
+        
+        .banner {
+            float: right;
+        }
+        
+        .banner ul>li {
+            float: left;
+            list-style: none;
+        }
+        
+        .banner li a {
+            display: block;
+            line-height: 128px;
+            padding: 0 10px;
+            font-size: 24px;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .banner li a:hover {
+            color: #3385ff;
+        }
+        
+        footer {
+            height: 500px;
+            background: url("../img/bg1.jpg") center no-repeat fixed;
+            padding: 100px 0;
+            padding-bottom: 0;
+        }
+        
+        footer>div {
+            width: 1200px;
+            height: 400px;
+            background: #fff;
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        
+        footer>div form {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        footer>div>div {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        footer div>form p {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        
+        footer div>form input[type=text] {
+            width: 95%;
+            height: 30px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        footer div>form textarea {
+            resize: none;
+            width: 95%;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+        
+        footer div>form input[type=submit] {
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            background: #0078ff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        footer div>div p {
+            font-size: 18px;
+            color: #333;
+            margin: 40px 0;
+        }
+        
+        footer div>div p:first-child {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        
+        footer>p {
+            line-height: 100px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        main {
+            width: 1200px;
+            padding: 60px 20px;
+            box-sizing: border-box;
+            margin: 20px auto;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        main h2 {
+            margin: 20px 0;
+            font-size: 40px;
+        }
+        
+        main h3 {
+            margin-top: 80px;
+            font-size: 24px;
+            color: #333;
+            text-indent: 36px;
+        }
+        
+        iframe {
+            margin: 20px 36px;
+            width: 948px;
+            height: 621px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="clearfix">
+        <div class="logo">
+            <a href="../index.html"></a>
+        </div>
+        <div class="banner">
+            <ul class="clearfix">
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="../introduction/index.html">人物介绍</a></li>
+                <li><a href="../character_experience/index.html">人物经历</a></li>
+                <li><a href="../restart/index.html">重新开始</a></li>
+                <li><a href="../main_works/index.html">主要作品</a></li>
+                <li><a href="../award_winning_record/index.html">获奖记录</a></li>
+                <li><a href="../picture_appreciation/index.html">图片欣赏</a></li>
+                <li><a href="../video_appreciation/index.html">视频欣赏</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h2>视频欣赏</h2>
+        <h3>【中文字幕】小岛秀夫回顾自身经历</h3>
+        <iframe src="https://player.bilibili.com/player.html?aid=78750184&bvid=BV1zJ411y77x&cid=134747472&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <h3>游戏背后的神丨带你走进游戏界第一偶像的世界：小岛秀夫和他的合金装备</h3>
+        <iframe src="https://player.bilibili.com/player.html?aid=45710896&bvid=BV1Bb411v7oD&cid=80069236&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <h3>小岛秀夫 MGS4 制作纪录片【中文字幕】</h3>
+        <iframe src="https://player.bilibili.com/player.html?aid=69079576&bvid=BV1hJ411T7dT&cid=119719371&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </main>
+    <footer>
+        <div>
+            <form action="#">
+                <p>发送留言</p>
+                <input type="text" placeholder="你的名字">
+                <input type="text" placeholder="你的邮箱">
+                <input type="text" placeholder="你的电话">
+                <textarea name="" id="" rows="8"></textarea>
+                <input type="submit" value="发送">
+            </form>
+            <div>
+                <p>联系方式</p>
+                <p>地址：翻斗花园二号楼一零零一室</p>
+                <p>联系电话：(XXXX)-XXXXXXXXXXX</p>
+                <p>电子邮箱：email@email.com</p>
+            </div>
+        </div>
+        <p>© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人物介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            min-width: 1444px;
+        }
+        
+        .clearfix:after,
+        .clearfix:before {
+            content: "";
+            display: table;
+        }
+        
+        .clearfix:after {
+            clear: both;
+        }
+        
+        .clearfix {
+            *zoom: 1;
+        }
+        
+        header {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            float: left;
+        }
+        
+        .logo a {
+            width: 128px;
+            height: 128px;
+            display: block;
+            background-image: url("../img/logo.png");
+        }
+        
+        .banner {
+            float: right;
+        }
+        
+        .banner ul>li {
+            float: left;
+            list-style: none;
+        }
+        
+        .banner li a {
+            display: block;
+            line-height: 128px;
+            padding: 0 10px;
+            font-size: 24px;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .banner li a:hover {
+            color: #3385ff;
+        }
+        
+        footer {
+            height: 500px;
+            background: url("../img/bg1.jpg") center no-repeat fixed;
+            padding: 100px 0;
+            padding-bottom: 0;
+        }
+        
+        footer>div {
+            width: 1200px;
+            height: 400px;
+            background: #fff;
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        
+        footer>div form {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        footer>div>div {
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        footer div>form p {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        
+        footer div>form input[type=text] {
+            width: 95%;
+            height: 30px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        footer div>form textarea {
+            resize: none;
+            width: 95%;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+        
+        footer div>form input[type=submit] {
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            background: #0078ff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        footer div>div p {
+            font-size: 18px;
+            color: #333;
+            margin: 40px 0;
+        }
+        
+        footer div>div p:first-child {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        
+        footer>p {
+            line-height: 100px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        main {
+            width: 1600px;
+            height: 800px;
+            padding: 60px 20px;
+            box-sizing: border-box;
+            margin: 20px auto;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .text,
+        .img {
+            width: 60%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+        }
+        
+        .img {
+            float: right;
+            width: 35%;
+            border: 1px solid #ccc;
+        }
+        
+        .text h2 {
+            margin: 20px;
+            font-size: 40px;
+        }
+        
+        .text p {
+            font-size: 22px;
+            color: #333;
+            text-indent: 2em;
+            line-height: 30px;
+            margin: 10px;
+            text-align: justify;
+        }
+        
+        .text table {
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        table td {
+            font-size: 20px;
+            line-height: 50px;
+            border-bottom: 1px dotted #ccc;
+            color: #333;
+        }
+        
+        .cgray {
+            color: #999;
+            padding-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="clearfix">
+        <div class="logo">
+            <a href="../index.html"></a>
+        </div>
+        <div class="banner">
+            <ul class="clearfix">
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="../introduction/index.html">人物介绍</a></li>
+                <li><a href="../character_experience/index.html">人物经历</a></li>
+                <li><a href="../restart/index.html">重新开始</a></li>
+                <li><a href="../main_works/index.html">主要作品</a></li>
+                <li><a href="../award_winning_record/index.html">获奖记录</a></li>
+                <li><a href="../picture_appreciation/index.html">图片欣赏</a></li>
+                <li><a href="../video_appreciation/index.html">视频欣赏</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="text">
+            <h2>小岛秀夫</h2>
+            <p>小岛秀夫（こじま ひでお、Hideo Kojima），1963年8月24日出生于东京都世田谷区。日本殿堂级游戏设计师。曾担任日本KONAMI数字娱乐行政人员、创意主任。现与索尼电脑娱乐合作后成为独立的游戏开发团队－小岛制作（小岛プロダクション、Kojima Productions）的总指挥。</p>
+            <p>小岛秀夫因主导开发了世界上第一款战术谍报动作游戏《合金装备》（又名《潜龙谍影》）系列而名声大噪，成为全世界最知名的游戏制作人及日本游戏界的标志性人物之一。 </p>
+            <table>
+                <tr>
+                    <td class="cgray">中文名</td>
+                    <td>小岛秀夫</td>
+                    <td class="cgray">出生日期</td>
+                    <td>1963年8月24日</td>
+                </tr>
+                <tr>
+                    <td class="cgray">外文名</td>
+                    <td>こじま ひでお、Hideo Kojima</td>
+                    <td class="cgray">职&emsp;业</td>
+                    <td>游戏制作人、游戏编剧、游戏导演</td>
+                </tr>
+                <tr>
+                    <td class="cgray">国&emsp;籍</td>
+                    <td>日本</td>
+                    <td class="cgray">主要成就</td>
+                    <td>创造了《合金装备》系列并获得吉尼斯记录</td>
+                </tr>
+                <tr>
+                    <td class="cgray">民&emsp;族</td>
+                    <td>大和族</td>
+                    <td class="cgray">代表作品</td>
+                    <td>《合金装备》</td>
+                </tr>
+                <tr>
+                    <td class="cgray">出生地</td>
+                    <td>东京都世田谷区</td>
+                    <td class="cgray">原属公司</td>
+                    <td>KONAMI（已离职）</td>
+                </tr>
+                <tr>
+                    <td class="cgray"></td>
+                    <td></td>
+                    <td class="cgray">所属团队</td>
+                    <td>小岛制作(自主工作室)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="img"><img src="./img/3.jfif" alt=""></div>
+    </main>
+    <footer>
+        <div>
+            <form action="#">
+                <p>发送留言</p>
+                <input type="text" placeholder="你的名字">
+                <input type="text" placeholder="你的邮箱">
+                <input type="text" placeholder="你的电话">
+                <textarea name="" id="" rows="8"></textarea>
+                <input type="submit" value="发送">
+            </form>
+            <div>
+                <p>联系方式</p>
+                <p>地址：翻斗花园二号楼一零零一室</p>
+                <p>联系电话：(XXXX)-XXXXXXXXXXX</p>
+                <p>电子邮箱：email@email.com</p>
+            </div>
+        </div>
+        <p>© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-width: 1444px;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    width: 128px;
+    height: 128px;
+    display: block;
+    background-image: url("../img/logo.png");
+}
+
+.banner {
+    float: right;
+}
+
+.banner ul>li {
+    float: left;
+    list-style: none;
+}
+
+.banner li a {
+    display: block;
+    line-height: 128px;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+.banner li a:hover {
+    color: #3385ff;
+}
+
+main {
+    height: 800px;
+    overflow: hidden;
+}
+
+main img {
+    display: block;
+    width: 100%;
+}
+
+.words {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 300px;
+}
+
+.words p {
+    font-size: 60px;
+    line-height: 100px;
+    color: #fff;
+}
+
+footer {
+    height: 500px;
+    background: url("../img/bg1.jpg") center no-repeat fixed;
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+
+footer>div {
+    width: 1200px;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+footer>div form {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+footer>div>div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+footer div>form p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+footer div>form input[type=text] {
+    width: 95%;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer div>form textarea {
+    resize: none;
+    width: 95%;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+footer div>form input[type=submit] {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background: #0078ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer div>div p {
+    font-size: 18px;
+    color: #333;
+    margin: 40px 0;
+}
+
+footer div>div p:first-child {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+footer>p {
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+}
